@@ -20,8 +20,6 @@ module.exports = {
   },
   rules: {
     "no-prototype-builtins": "off",
-    "import/prefer-default-export": "off",
-    "import/no-default-export": "error",
     "react/destructuring-assignment": "off",
     "react/jsx-filename-extension": "off",
     "no-use-before-define": [

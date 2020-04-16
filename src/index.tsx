@@ -1,9 +1,10 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-ReactDOM.render(
+const App: React.FC = () => (
   <React.StrictMode>
     <p>Here we go</p>
-  </React.StrictMode>,
-  document.getElementById('root'),
+  </React.StrictMode>
 );
+
+ReactDOM.render(<App />, document.getElementById('root'));
