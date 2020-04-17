@@ -22,6 +22,7 @@ module.exports = {
     "no-prototype-builtins": "off",
     "react/destructuring-assignment": "off",
     "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
     "no-use-before-define": [
       "error",
       { functions: false, classes: true, variables: true },
@@ -37,5 +38,9 @@ module.exports = {
     'spaced-comment': ['error', 'always', {
       'markers': ['/'],
     }],
+    "import/extensions": [
+      "error",
+      "never",
+    ]
   },
 }
