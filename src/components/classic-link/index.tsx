@@ -1,26 +1,33 @@
 import React from 'react';
-import { map } from 'lodash';
-import { Box, Button } from 'rebass/styled-components';
-import Avatar from '../avatar';
+import { Button } from 'rebass/styled-components';
 
 interface ClassicLinkProps {
-  username: string;
-  imageSrc: string;
-  links: {
-    text: string;
-    url: string;
-  }[];
+  text: string;
+  url: string;
+  theme: {
+    background_color: string;
+    text_color: string;
+  };
 }
 
-const ClassicLink: React.FC<ClassicLinkProps> = ({ imageSrc, links, username }) => (
-  <Box variant="wrapper">
-    <Avatar username={username} imageSrc={imageSrc} />
-    {map(links, (link) => (
-      <Button key={link.url} as="a" href={link.url} variant="block" mb={3}>
-        {link.text}
-      </Button>
-    ))}
-  </Box>
+const ClassicLink: React.FC<ClassicLinkProps> = ({ text, theme, url }) => (
+  <Button
+    as="a"
+    href={url}
+    target="_blank"
+    variant="block"
+    mb={3}
+    sx={{
+      backgroundColor: theme.background_color,
+      color: theme.text_color,
+      ':hover': {
+        backgroundColor: theme.text_color,
+        color: theme.background_color,
+      },
+    }}
+  >
+    {text}
+  </Button>
 );
 
 export default ClassicLink;

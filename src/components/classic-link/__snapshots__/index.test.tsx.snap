@@ -1,3 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Classic Link Renders 1`] = `ShallowWrapper {}`;
+exports[`Classic Link Renders 1`] = `
+<ForwardRef
+  as="a"
+  href="http://www.google.com"
+  mb={3}
+  sx={
+    Object {
+      ":hover": Object {
+        "backgroundColor": "palegoldenrod",
+        "color": "rebeccapurple",
+      },
+      "backgroundColor": "rebeccapurple",
+      "color": "palegoldenrod",
+    }
+  }
+  target="_blank"
+  variant="block"
+>
+  Link One
+</ForwardRef>
+`;

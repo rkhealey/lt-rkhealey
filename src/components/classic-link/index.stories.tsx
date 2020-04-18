@@ -1,10 +1,18 @@
 import React from 'react';
+import { map } from 'lodash';
 import ClassicLink from '.';
+import Wrapper from '../wrapper';
 
-import { user, links } from '../../mock-data';
+import { user, links, theme } from '../../mock-data';
 
 export default {
-  title: 'Classic Link',
+  title: 'with Classic Links',
 };
 
-export const Classic: React.FC = () => <ClassicLink {...user} links={links} />;
+export const Classic: React.FC = () => (
+  <Wrapper {...user}>
+    {map(links, (link) => (
+      <ClassicLink theme={theme} {...link} />
+    ))}
+  </Wrapper>
+);

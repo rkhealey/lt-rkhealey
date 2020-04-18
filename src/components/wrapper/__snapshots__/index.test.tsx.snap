@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper Renders 1`] = `
+<styled.div
+  variant="wrapper"
+>
+  <Avatar
+    imageSrc="profile.png"
+    username="@yourname"
+  />
+  <p>
+    Hello
+  </p>
+</styled.div>
+`;
