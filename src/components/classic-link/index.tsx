@@ -16,7 +16,7 @@ const ClassicLink: React.FC<ClassicLinkProps> = ({ imageSrc, links, username }) 
   <Box variant="wrapper">
     <Avatar username={username} imageSrc={imageSrc} />
     {map(links, (link) => (
-      <Button key={link.url} as="a" href={link.url} variant="block" mb={3}>
+      <Button key={link.url} as="a" href={link.url} target="_blank" variant="block" mb={3}>
         {link.text}
       </Button>
     ))}
