@@ -5,6 +5,16 @@ exports[`Classic Link Renders 1`] = `
   as="a"
   href="http://www.google.com"
   mb={3}
+  sx={
+    Object {
+      ":hover": Object {
+        "backgroundColor": "palegoldenrod",
+        "color": "rebeccapurple",
+      },
+      "backgroundColor": "rebeccapurple",
+      "color": "palegoldenrod",
+    }
+  }
   target="_blank"
   variant="block"
 >
