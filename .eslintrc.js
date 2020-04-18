@@ -22,6 +22,7 @@ module.exports = {
     "no-prototype-builtins": "off",
     "react/destructuring-assignment": "off",
     "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
     "no-use-before-define": [
       "error",
