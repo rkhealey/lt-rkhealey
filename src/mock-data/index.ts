@@ -5,6 +5,11 @@ export const user = {
   imageSrc: profile,
 };
 
+export const theme = {
+  background_color: 'rebeccapurple',
+  text_color: 'palegoldenrod',
+};
+
 export const links = [
   {
     url: 'http://www.google.com',
