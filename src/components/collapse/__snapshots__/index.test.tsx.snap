@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse Renders 1`] = `
+<styled.div
+  mb={3}
+>
+  <ForwardRef
+    onClick={[Function]}
+    sx={
+      Object {
+        ":hover": Object {
+          "backgroundColor": "palegoldenrod",
+          "color": "rebeccapurple",
+        },
+        "backgroundColor": "rebeccapurple",
+        "color": "palegoldenrod",
+      }
+    }
+    variant="block"
+  >
+    Foo
+  </ForwardRef>
+</styled.div>
+`;
