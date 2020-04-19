@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows Link Renders 1`] = `
+<Collapse
+  theme={
+    Object {
+      "background_color": "rebeccapurple",
+      "text_color": "palegoldenrod",
+    }
+  }
+  title="Shows"
+>
+  <styled.div
+    bg="grey_100"
+    pb={7}
+    px={3}
+    sx={
+      Object {
+        "backgroundImage": "url(songkick.svg)",
+        "backgroundPosition": "left 50% bottom 32px",
+        "backgroundRepeat": "no-repeat",
+      }
+    }
+  >
+    <Styled(styled.div)
+      alignItems="center"
+      justifyContent="space-between"
+      key="http://www.songkick.com/1"
+      py={3}
+      sx={
+        Object {
+          "borderBottom": "1px solid #e9ecee",
+        }
+      }
+    >
+      <styled.div>
+        <ForwardRef>
+          April 01 2019
+        </ForwardRef>
+        <ForwardRef
+          fontSize={0}
+        >
+          The Forum, Melbourne
+        </ForwardRef>
+      </styled.div>
+      <styled.div
+        sx={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        <ForwardRef
+          as="a"
+          href="http://www.songkick.com/1"
+          target="_blank"
+          variant="transparent"
+        >
+          <i
+            className="material-icons"
+          >
+            chevron_right
+          </i>
+        </ForwardRef>
+      </styled.div>
+    </Styled(styled.div)>
+    <Styled(styled.div)
+      alignItems="center"
+      justifyContent="space-between"
+      key="http://www.songkick.com/2"
+      py={3}
+      sx={
+        Object {
+          "borderBottom": "1px solid #e9ecee",
+        }
+      }
+    >
+      <styled.div>
+        <ForwardRef>
+          April 02 2019
+        </ForwardRef>
+        <ForwardRef
+          fontSize={0}
+        >
+          Venue Name, Canberra
+        </ForwardRef>
+      </styled.div>
+      <styled.div
+        sx={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        <ForwardRef
+          fontSize={0}
+        >
+          Sold out
+        </ForwardRef>
+      </styled.div>
+    </Styled(styled.div)>
+    <Styled(styled.div)
+      alignItems="center"
+      justifyContent="space-between"
+      key="http://www.songkick.com/3"
+      py={3}
+      sx={
+        Object {
+          "borderBottom": "1px solid #e9ecee",
+        }
+      }
+    >
+      <styled.div>
+        <ForwardRef>
+          April 03 2019
+        </ForwardRef>
+        <ForwardRef
+          fontSize={0}
+        >
+          Venue Name, Sydney
+        </ForwardRef>
+      </styled.div>
+      <styled.div
+        sx={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        <ForwardRef
+          as="a"
+          href="http://www.songkick.com/3"
+          target="_blank"
+          variant="transparent"
+        >
+          <i
+            className="material-icons"
+          >
+            chevron_right
+          </i>
+        </ForwardRef>
+      </styled.div>
+    </Styled(styled.div)>
+    <Styled(styled.div)
+      alignItems="center"
+      justifyContent="space-between"
+      key="http://www.songkick.com/4"
+      py={3}
+      sx={
+        Object {
+          "borderBottom": "1px solid #e9ecee",
+        }
+      }
+    >
+      <styled.div>
+        <ForwardRef>
+          April 04 2019
+        </ForwardRef>
+        <ForwardRef
+          fontSize={0}
+        >
+          Venue Name, Brisbane
+        </ForwardRef>
+      </styled.div>
+      <styled.div
+        sx={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        <ForwardRef
+          as="a"
+          href="http://www.songkick.com/4"
+          target="_blank"
+          variant="transparent"
+        >
+          <i
+            className="material-icons"
+          >
+            chevron_right
+          </i>
+        </ForwardRef>
+      </styled.div>
+    </Styled(styled.div)>
+  </styled.div>
+</Collapse>
+`;

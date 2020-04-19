@@ -4,6 +4,9 @@ const colors = {
   text: '#263238',
   background: '#fff',
   primary: '#39e09b',
+  grey_100: '#f5f7f8',
+  grey_200: '#e9ecee',
+  grey_800: '#2f3a40',
 };
 
 const fonts = {
@@ -21,10 +24,16 @@ export default {
       height: '48px',
       lineHeight: '48px',
       py: 0,
+      width: '100%',
       ':hover': {
         backgroundColor: 'text',
         color: 'primary',
       },
+    },
+    transparent: {
+      backgroundColor: 'transparent',
+      color: 'text',
+      p: 0,
     },
   },
   colors,
@@ -44,6 +53,7 @@ export default {
       backgroundImage: `url(${logo})`,
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'left 50% bottom 32px',
+      flexDirection: 'column',
       maxWidth: '700px',
       mx: 'auto',
       pt: 5,

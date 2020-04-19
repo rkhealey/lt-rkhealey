@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Wrapper Renders 1`] = `
-<styled.div
+<Styled(styled.div)
   variant="wrapper"
 >
   <Avatar
@@ -11,5 +11,5 @@ exports[`Wrapper Renders 1`] = `
   <p>
     Hello
   </p>
-</styled.div>
+</Styled(styled.div)>
 `;
