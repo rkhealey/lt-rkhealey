@@ -1,4 +1,5 @@
 import React from 'react';
+import { noop } from 'lodash';
 import { shallow } from 'enzyme';
 import { mocked } from 'ts-jest/utils';
 import Platform from '.';
@@ -26,14 +27,14 @@ mockedFetch.mockResolvedValue('/path-to-image.svg');
 
 describe('Platform', () => {
   it('Renders', async () => {
-    const wrapper = shallow(<Platform {...mockData[0]} />);
+    const wrapper = shallow(<Platform {...mockData[0]} onLaunchPlayer={noop} />);
     // wait for useEffect to finish
     await Promise.resolve();
     expect(wrapper).toMatchSnapshot();
   });
 
   it('Returns null if logo is not found', () => {
-    const wrapper = shallow(<Platform {...mockData[1]} />);
+    const wrapper = shallow(<Platform {...mockData[1]} onLaunchPlayer={noop} />);
     expect(wrapper).toEqual({});
   });
 });

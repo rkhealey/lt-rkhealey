@@ -1,8 +1,9 @@
-import React from 'react';
-import { map } from 'lodash';
+import React, { useState } from 'react';
+import { get, find, map } from 'lodash';
 import { Box } from 'rebass/styled-components';
 import Collapse from '../collapse';
 import Platform from './components/platform';
+import SpotifyPlayer from './components/spotify-player';
 
 interface MusicPlayerProps {
   title: string;
@@ -20,12 +21,17 @@ interface MusicPlayerProps {
   }[];
 }
 
-const MusicPlayer: React.FC<MusicPlayerProps> = ({ links, theme, title }) => {
+const MusicPlayer: React.FC<MusicPlayerProps> = ({ artist, links, name, theme, title }) => {
+  const [currentPlayer, setCurrentPlayer] = useState<string | null>(null);
   return (
     <Collapse title={title} theme={theme}>
+      {/* @TODO switch out the players */}
+      {currentPlayer === 'spotify' && (
+        <SpotifyPlayer songTitle={name} artist={artist} songId={get(find(links, { id: 'spotify' }), 'songId', null)} />
+      )}
       <Box bg="grey_100">
         {map(links, (link) => (
-          <Platform key={link.url} {...link} name={link.platform} />
+          <Platform key={link.url} {...link} name={link.platform} onLaunchPlayer={() => setCurrentPlayer(link.id)} />
         ))}
       </Box>
     </Collapse>

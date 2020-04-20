@@ -11,8 +11,15 @@ exports[`Platform Renders 1`] = `
     px={3}
   >
     <ForwardRef
-      src="/path-to-image.svg"
-    />
+      as="a"
+      href="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
+      target="_blank"
+      variant="transparent"
+    >
+      <ForwardRef
+        src="/path-to-image.svg"
+      />
+    </ForwardRef>
   </Styled(styled.div)>
   <Styled(styled.div)
     alignItems="center"
@@ -25,10 +32,8 @@ exports[`Platform Renders 1`] = `
       Spotify
     </ForwardRef>
     <ForwardRef
-      as="a"
-      href="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
       mr={3}
-      target="_blank"
+      onClick={[Function]}
       variant="transparent"
     >
       <i

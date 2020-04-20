@@ -5,11 +5,12 @@ import fetchImage from './fetch-image';
 interface PlatformProps {
   id: string;
   name: string;
-  url: string;
+  onLaunchPlayer: () => void;
   songId: string;
+  url: string;
 }
 
-const Platform: React.FC<PlatformProps> = ({ id, name, url }) => {
+const Platform: React.FC<PlatformProps> = ({ id, name, onLaunchPlayer, url }) => {
   const [logo, setLogo] = useState<string | null>(null);
 
   React.useEffect(() => {
@@ -24,11 +25,13 @@ const Platform: React.FC<PlatformProps> = ({ id, name, url }) => {
   return (
     <Flex key={url} alignItems="center" justifyContent="space-between">
       <Flex px={3} alignItems="center">
-        <Image src={logo} />
+        <Button variant="transparent" as="a" href={url} target="_blank">
+          <Image src={logo} />
+        </Button>
       </Flex>
       <Flex py={3} flex={1} alignItems="center" justifyContent="space-between" variant="withBorderBottom">
         <Text>{name}</Text>
-        <Button mr={3} as="a" href={url} target="_blank" variant="transparent">
+        <Button mr={3} onClick={onLaunchPlayer} variant="transparent">
           <i className="material-icons">chevron_right</i>
         </Button>
       </Flex>
