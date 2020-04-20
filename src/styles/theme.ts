@@ -33,6 +33,7 @@ export default {
     transparent: {
       backgroundColor: 'transparent',
       color: 'text',
+      lineHeight: '16px',
       p: 0,
     },
   },

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Music Player Renders 1`] = `
+<Collapse
+  theme={
+    Object {
+      "background_color": "rebeccapurple",
+      "text_color": "palegoldenrod",
+    }
+  }
+  title="Music"
+>
+  <styled.div
+    bg="grey_100"
+  >
+    <Platform
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
+      name="Spotify"
+      platform="Spotify"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
+    />
+    <Platform
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1"
+      name="Apple Music"
+      platform="Apple Music"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1"
+    />
+    <Platform
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2"
+      name="Soundcloud"
+      platform="Soundcloud"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2"
+    />
+    <Platform
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&3"
+      name="Youtube Music"
+      platform="Youtube Music"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&3"
+    />
+  </styled.div>
+</Collapse>
+`;

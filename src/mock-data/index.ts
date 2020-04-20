@@ -62,3 +62,31 @@ export const showLinks = {
     },
   ],
 };
+
+export const musicPlayer = {
+  title: 'Music',
+  artist: 'John Lennon',
+  name: 'Imagine',
+  links: [
+    {
+      platform: 'Spotify',
+      url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ',
+      songId: '7pKfPomDEeI4TPT6EOYjn9',
+    },
+    {
+      platform: 'Apple Music',
+      url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1',
+      songId: '7pKfPomDEeI4TPT6EOYjn9',
+    },
+    {
+      platform: 'Soundcloud',
+      url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2',
+      songId: '7pKfPomDEeI4TPT6EOYjn9',
+    },
+    {
+      platform: 'Youtube Music',
+      url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&3',
+      songId: '7pKfPomDEeI4TPT6EOYjn9',
+    },
+  ],
+};
