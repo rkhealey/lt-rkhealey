@@ -33,6 +33,7 @@ export default {
     transparent: {
       backgroundColor: 'transparent',
       color: 'text',
+      lineHeight: '16px',
       p: 0,
     },
   },
@@ -59,6 +60,9 @@ export default {
       pt: 5,
       pb: 7,
       px: 4,
+    },
+    withBorderBottom: {
+      borderBottom: '1px solid #e9ecee',
     },
   },
 };

@@ -12,7 +12,7 @@ export default {
 export const Classic: React.FC = () => (
   <Wrapper {...user}>
     {map(links, (link) => (
-      <ClassicLink theme={theme} {...link} />
+      <ClassicLink key={link.url} theme={theme} {...link} />
     ))}
   </Wrapper>
 );

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Music Player Renders 1`] = `
+<Collapse
+  theme={
+    Object {
+      "background_color": "rebeccapurple",
+      "text_color": "palegoldenrod",
+    }
+  }
+  title="Music"
+>
+  <styled.div
+    bg="grey_100"
+  >
+    <Platform
+      id="spotify"
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
+      name="Spotify"
+      onLaunchPlayer={[Function]}
+      platform="Spotify"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
+    />
+    <Platform
+      id="apple-music"
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1"
+      name="Apple Music"
+      onLaunchPlayer={[Function]}
+      platform="Apple Music"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1"
+    />
+    <Platform
+      id="soundcloud"
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2"
+      name="Soundcloud"
+      onLaunchPlayer={[Function]}
+      platform="Soundcloud"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2"
+    />
+    <Platform
+      id="youtube-music"
+      key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&3"
+      name="Youtube Music"
+      onLaunchPlayer={[Function]}
+      platform="Youtube Music"
+      songId="7pKfPomDEeI4TPT6EOYjn9"
+      url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&3"
+    />
+  </styled.div>
+</Collapse>
+`;

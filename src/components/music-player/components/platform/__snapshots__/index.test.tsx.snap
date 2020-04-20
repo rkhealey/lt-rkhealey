@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Platform Renders 1`] = `
+<Styled(styled.div)
+  alignItems="center"
+  justifyContent="space-between"
+  key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
+>
+  <Styled(styled.div)
+    alignItems="center"
+    px={3}
+  >
+    <ForwardRef
+      as="a"
+      href="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
+      target="_blank"
+      variant="transparent"
+    >
+      <ForwardRef
+        src="/path-to-image.svg"
+      />
+    </ForwardRef>
+  </Styled(styled.div)>
+  <Styled(styled.div)
+    alignItems="center"
+    flex={1}
+    justifyContent="space-between"
+    py={3}
+    variant="withBorderBottom"
+  >
+    <ForwardRef>
+      Spotify
+    </ForwardRef>
+    <ForwardRef
+      mr={3}
+      onClick={[Function]}
+      variant="transparent"
+    >
+      <i
+        className="material-icons"
+      >
+        chevron_right
+      </i>
+    </ForwardRef>
+  </Styled(styled.div)>
+</Styled(styled.div)>
+`;
