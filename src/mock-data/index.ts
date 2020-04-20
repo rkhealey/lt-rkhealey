@@ -12,23 +12,23 @@ export const theme = {
 
 export const links = [
   {
-    url: 'http://www.google.com',
+    url: 'http://www.google.com?1',
     text: 'Link One',
   },
   {
-    url: 'http://www.google.com',
+    url: 'http://www.google.com?2',
     text: 'Link Two',
   },
   {
-    url: 'http://www.google.com',
+    url: 'http://www.google.com?3',
     text: 'Link Three',
   },
   {
-    url: 'http://www.google.com',
+    url: 'http://www.google.com?4',
     text: 'Link Four',
   },
   {
-    url: 'http://www.google.com',
+    url: 'http://www.google.com?5',
     text: 'Link Five',
   },
 ];

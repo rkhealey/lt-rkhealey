@@ -3,7 +3,7 @@
 exports[`Classic Link Renders 1`] = `
 <ForwardRef
   as="a"
-  href="http://www.google.com"
+  href="http://www.google.com?1"
   mb={3}
   sx={
     Object {
