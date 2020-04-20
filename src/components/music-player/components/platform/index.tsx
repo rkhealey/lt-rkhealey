@@ -27,13 +27,7 @@ const Platform: React.FC<PlatformProps> = ({ name, url }) => {
       <Flex px={3} alignItems="center">
         <Image src={logo} />
       </Flex>
-      <Flex
-        py={3}
-        flex={1}
-        alignItems="center"
-        justifyContent="space-between"
-        sx={{ borderBottom: '1px solid #e9ecee' }}
-      >
+      <Flex py={3} flex={1} alignItems="center" justifyContent="space-between" variant="withBorderBottom">
         <Text>{name}</Text>
         <Button mr={3} as="a" href={url} target="_blank" variant="transparent">
           <i className="material-icons">chevron_right</i>

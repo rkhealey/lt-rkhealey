@@ -32,13 +32,7 @@ const ShowsLink: React.FC<ShowsLinkProps> = ({ links, theme, title }) => (
       }}
     >
       {map(links, (link) => (
-        <Flex
-          py={3}
-          key={link.url}
-          alignItems="center"
-          justifyContent="space-between"
-          sx={{ borderBottom: '1px solid #e9ecee' }}
-        >
+        <Flex py={3} key={link.url} alignItems="center" justifyContent="space-between" variant="withBorderBottom">
           <Box>
             <Text>{link.date}</Text>
             <Text fontSize={0}>{link.venue}</Text>

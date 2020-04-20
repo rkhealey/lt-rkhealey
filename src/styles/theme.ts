@@ -61,5 +61,8 @@ export default {
       pb: 7,
       px: 4,
     },
+    withBorderBottom: {
+      borderBottom: '1px solid #e9ecee',
+    },
   },
 };
