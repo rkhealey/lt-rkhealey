@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
-import { kebabCase } from 'lodash';
 import { Button, Flex, Image, Text } from 'rebass/styled-components';
 import fetchImage from './fetch-image';
 
 interface PlatformProps {
+  id: string;
   name: string;
   url: string;
   songId: string;
 }
 
-const Platform: React.FC<PlatformProps> = ({ name, url }) => {
-  const slug: string = kebabCase(name);
+const Platform: React.FC<PlatformProps> = ({ id, name, url }) => {
   const [logo, setLogo] = useState<string | null>(null);
 
   React.useEffect(() => {
-    fetchImage(slug).then((img) => {
+    fetchImage(id).then((img) => {
       setLogo(img);
     });
   }, []);

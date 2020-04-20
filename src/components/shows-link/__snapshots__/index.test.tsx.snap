@@ -27,11 +27,7 @@ exports[`Shows Link Renders 1`] = `
       justifyContent="space-between"
       key="http://www.songkick.com/1"
       py={3}
-      sx={
-        Object {
-          "borderBottom": "1px solid #e9ecee",
-        }
-      }
+      variant="withBorderBottom"
     >
       <styled.div>
         <ForwardRef>
@@ -69,11 +65,7 @@ exports[`Shows Link Renders 1`] = `
       justifyContent="space-between"
       key="http://www.songkick.com/2"
       py={3}
-      sx={
-        Object {
-          "borderBottom": "1px solid #e9ecee",
-        }
-      }
+      variant="withBorderBottom"
     >
       <styled.div>
         <ForwardRef>
@@ -104,11 +96,7 @@ exports[`Shows Link Renders 1`] = `
       justifyContent="space-between"
       key="http://www.songkick.com/3"
       py={3}
-      sx={
-        Object {
-          "borderBottom": "1px solid #e9ecee",
-        }
-      }
+      variant="withBorderBottom"
     >
       <styled.div>
         <ForwardRef>
@@ -146,11 +134,7 @@ exports[`Shows Link Renders 1`] = `
       justifyContent="space-between"
       key="http://www.songkick.com/4"
       py={3}
-      sx={
-        Object {
-          "borderBottom": "1px solid #e9ecee",
-        }
-      }
+      variant="withBorderBottom"
     >
       <styled.div>
         <ForwardRef>

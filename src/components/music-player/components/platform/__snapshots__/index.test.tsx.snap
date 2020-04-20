@@ -19,11 +19,7 @@ exports[`Platform Renders 1`] = `
     flex={1}
     justifyContent="space-between"
     py={3}
-    sx={
-      Object {
-        "borderBottom": "1px solid #e9ecee",
-      }
-    }
+    variant="withBorderBottom"
   >
     <ForwardRef>
       Spotify

@@ -14,6 +14,7 @@ exports[`Music Player Renders 1`] = `
     bg="grey_100"
   >
     <Platform
+      id="spotify"
       key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
       name="Spotify"
       platform="Spotify"
@@ -21,6 +22,7 @@ exports[`Music Player Renders 1`] = `
       url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ"
     />
     <Platform
+      id="apple-music"
       key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1"
       name="Apple Music"
       platform="Apple Music"
@@ -28,6 +30,7 @@ exports[`Music Player Renders 1`] = `
       url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1"
     />
     <Platform
+      id="soundcloud"
       key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2"
       name="Soundcloud"
       platform="Soundcloud"
@@ -35,6 +38,7 @@ exports[`Music Player Renders 1`] = `
       url="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2"
     />
     <Platform
+      id="youtube-music"
       key="https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&3"
       name="Youtube Music"
       platform="Youtube Music"

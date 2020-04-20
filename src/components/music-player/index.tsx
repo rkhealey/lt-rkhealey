@@ -13,6 +13,7 @@ interface MusicPlayerProps {
     text_color: string;
   };
   links: {
+    id: string;
     platform: string;
     url: string;
     songId: string;

@@ -6,11 +6,13 @@ import fetchImage from './fetch-image';
 
 const mockData = [
   {
+    id: 'spotify',
     name: 'Spotify',
     url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ',
     songId: '7pKfPomDEeI4TPT6EOYjn9',
   },
   {
+    id: 'extra-platform',
     name: 'Extra Platform',
     url: 'https://extraplatform.com',
     songId: '7pKfPomDEeI4TPT6EOYjn9',

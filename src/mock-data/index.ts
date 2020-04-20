@@ -69,21 +69,25 @@ export const musicPlayer = {
   name: 'Imagine',
   links: [
     {
+      id: 'spotify',
       platform: 'Spotify',
       url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ',
       songId: '7pKfPomDEeI4TPT6EOYjn9',
     },
     {
+      id: 'apple-music',
       platform: 'Apple Music',
       url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&1',
       songId: '7pKfPomDEeI4TPT6EOYjn9',
     },
     {
+      id: 'soundcloud',
       platform: 'Soundcloud',
       url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&2',
       songId: '7pKfPomDEeI4TPT6EOYjn9',
     },
     {
+      id: 'youtube-music',
       platform: 'Youtube Music',
       url: 'https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=JVKZYLN8RdqzxIFZ_NwhfQ&3',
       songId: '7pKfPomDEeI4TPT6EOYjn9',
